@@ -1,0 +1,23 @@
+{
+    "name": "portfolio-webpage",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "live-server ./responsive-portfolio-website-Alexa --port=4000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pfrincond/WebPage.git"
+    },
+    "author": "Pablo Rincon",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pfrincond/WebPage/issues"
+    },
+    "homepage": "https://github.com/pfrincond/WebPage#readme",
+    "dependencies": {
+        "live-server": "^1.2.1"
+    }
+}
