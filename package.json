@@ -18,6 +18,9 @@
     },
     "homepage": "https://github.com/pfrincond/WebPage#readme",
     "dependencies": {
-        "live-server": "^1.2.1"
+        "live-server": "^1.1.0"
+    },
+    "devDependencies": {
+        "http-server": "^13.0.2"
     }
 }
