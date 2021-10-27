@@ -731,6 +731,7 @@ image {
 
 .portfolio__container {
     overflow: initial;
+    position: relative;
 }
 
 .portfolio__content {
@@ -774,10 +775,6 @@ image {
     right: -.5rem;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets {
-    bottom: -2.5rem;
-}
-
 .swiper-pagination-bullet-active {
     background-color: var(--first-color);
 }
@@ -786,6 +783,10 @@ image {
 .swiper-button-next,
 .swiper-pagination-bullet {
     outline: none;
+}
+
+.swiper-pagination {
+    bottom: -2.5rem !important;
 }
 
 
